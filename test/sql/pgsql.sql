@@ -91,7 +91,8 @@ CREATE TABLE property_amenities(
 );
 
 CREATE TABLE users(
-	id serial primary key
+	id serial primary key,
+	password varchar(255) not null
 );
 
 CREATE TABLE newsletters(
