@@ -20,7 +20,7 @@ class BookValidations extends ActiveRecord\Model
 
 class UserValidations extends AR\Model
 {
-	static $table_name = 'user';
+	static $table_name = 'users';
 	public $password_confirm;
 
 	// Only for test purpose. This will double encrypt pass from the DB!
